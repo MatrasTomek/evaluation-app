@@ -1,0 +1,431 @@
+{
+  "title": "Audyt kulinarny – Panuozzo",
+  "brand": "MP CONSULTING FOOD",
+  "footer": "MP Consulting Food · Raport z audytu kulinarnego · 04.10.2026 · materiał poufny",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "RAPORT Z AUDYTU KULINARNEGO",
+      "title": "Panuozzo",
+      "subtitle": "kurczak · boczek · sos czosnkowy",
+      "bullets": [
+        "Ocena sensoryczna i technologiczna produktu",
+        "Zgodność z recepturą i deklaracją w menu",
+        "Food cost przemysłowy i analiza marży",
+        "Rekomendacje szefa kuchni – Panuozzo 2.0",
+        "Standardy operacyjne, sprzedaż i plan wdrożenia"
+      ],
+      "meta": ["Data wizyty: 04.10.2026", "Forma: wizyta audytowa z degustacją, dokumentacja fotograficzna"],
+      "image": "foto/okladka.jpg"
+    },
+    {
+      "title": "Zakres i metodologia audytu",
+      "section": "01 · Wprowadzenie",
+      "subtitle": "Standard oceny MP Consulting Food",
+      "columns": [
+        {
+          "width": 50,
+          "blocks": [
+            { "type": "text", "heading": "Cel audytu", "size": "large", "text": "Ocena produktu **Panuozzo z kurczakiem i boczkiem** pod kątem jakości kulinarnej, powtarzalności wykonania, zgodności z deklaracją w menu oraz rentowności. Raport wskazuje konkretne działania naprawcze i rozwojowe z oszacowaniem ich wpływu na koszt i wartość postrzeganą przez gościa." },
+            { "type": "bullets", "heading": "Zakres badania", "items": [
+              "Ocena sensoryczna: wygląd, wypiek, tekstura, balans smaku, temperatura, świeżość.",
+              "Analiza technologiczna: ciasto, proporcje, montaż, wykończenie.",
+              "Weryfikacja zgodności z recepturą deklarowaną i gramaturą w menu.",
+              "Kalkulacja food costu przemysłowego w dwóch wariantach.",
+              "Rekomendacje kulinarne, operacyjne i sprzedażowe."
+            ] }
+          ]
+        },
+        {
+          "width": 50,
+          "blocks": [
+            { "type": "text", "heading": "Metoda", "text": "Produkt zamówiony w standardowym trybie, bez uprzedzenia obsługi. Ocena przeprowadzona przy stole w momencie podania, dokumentacja fotograficzna przekroju i nadzienia. Dane receptury pozyskane z deklaracji lokalu. Ceny surowców: średnie hurtowe rynku polskiego." },
+            { "type": "table", "heading": "Skala ocen",
+              "columns": [ { "label": "Ocena", "width": 14, "align": "center", "kind": "score" }, { "label": "Znaczenie" } ],
+              "rows": [
+                ["5", "Wzorcowo – standard premium, bez uwag"],
+                ["4", "Dobrze – drobne korekty"],
+                ["3", "Poprawnie – wyraźny potencjał poprawy"],
+                ["2", "Słabo – wymaga działań naprawczych"],
+                ["1", "Niedopuszczalnie – natychmiastowa korekta"]
+              ] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Podsumowanie dla zarządu",
+      "section": "01 · Wprowadzenie",
+      "subtitle": "Najważniejsze wnioski w jednym miejscu",
+      "top": [
+        { "type": "kpis", "items": [
+          { "label": "Ocena ogólna produktu", "value": "3,5 / 5", "note": "dobry z wyraźnym potencjałem", "tone": "warn" },
+          { "label": "Food cost (netto)", "value": "15–17 %", "note": "benchmark rynkowy 25–32%", "tone": "good" },
+          { "label": "Rozbieżność gramatury", "value": "–13–15 %", "note": "590 g deklarowane vs ok. 505 g", "tone": "bad" },
+          { "label": "Zgodność z recepturą", "value": "częściowa", "note": "3 składniki spoza karty, brak pikla", "tone": "warn" }
+        ] }
+      ],
+      "columns": [
+        {
+          "width": 66,
+          "blocks": [
+            { "type": "bullets", "heading": "Kluczowe wnioski", "items": [
+              "**Produkt jest bardzo rentowny, ale „przepłaca” go gość.** Przy food coście ok. 15% i cenie 59 zł gość otrzymuje 90 g mięsa i ponad połowę masy w cieście. To realne ryzyko negatywnych opinii o stosunku jakości do ceny.",
+              "**Brakuje kwasowości.** Deklarowany pikiel nie trafia na talerz, a to on miał równoważyć tłusty boczek i sos czosnkowy. Smak jest płaski i ciężki w drugiej połowie porcji.",
+              "**Deklaracja wagi jest nieaktualna.** Gramatura 590 g nie jest osiągalna z deklarowanej receptury. To ryzyko reklamacji i zarzutu wprowadzania konsumenta w błąd.",
+              "**Brak standardu wykonania.** Skład na talerzu różni się od receptury (ser, pomidor, cebula). Świadczy to o braku karty technologicznej i porcjowania.",
+              "**Mocne strony:** bardzo dobry wypiek z pieca do pizzy, świeża rukola dodawana po upieczeniu, efektowny przekrój i podanie ze szpadką."
+            ] },
+            { "type": "spacer" },
+            { "type": "callout", "text": "**Rekomendacja główna:** wdrożyć Panuozzo 2.0 – o 30 g mniej ciasta, o 30 g więcej mięsa, domowe pikle i aioli. Food cost wzrośnie do ok. 21%, a produkt przy tej samej cenie stanie się pozycją flagową." }
+          ]
+        },
+        { "width": 34, "blocks": [ { "type": "image", "src": "foto/przekroj.jpg", "caption": "Przekrój podanego produktu" } ] }
+      ]
+    },
+    {
+      "title": "Karta produktu – stan deklarowany",
+      "section": "02 · Stan obecny",
+      "subtitle": "Dane z menu i deklaracji obsługi",
+      "columns": [
+        {
+          "width": 62,
+          "blocks": [
+            { "type": "table",
+              "columns": [ { "label": "Element", "kind": "bold" }, { "label": "Ilość", "align": "right", "width": 18 }, { "label": "Funkcja w daniu", "width": 36 } ],
+              "rows": [
+                ["Ciasto (kulka do pizzy)", "300 g", "baza, struktura"],
+                ["Kurczak", "90 g", "białko, sytość"],
+                ["Boczek", "40 g", "tłuszcz, umami, słoność"],
+                ["Sos czosnkowy", "ok. 40 g", "kremowość, aromat"],
+                ["Ogórek konserwowy / pikiel", "40–60 g", "kwasowość, chrupkość"],
+                ["Rukola (po upieczeniu)", "ok. 15 g", "świeżość, goryczka"],
+                ["Oliwa na wierzch", "ok. 10 ml", "połysk, aromat"]
+              ] },
+            { "type": "kpis", "items": [
+              { "label": "Waga deklarowana", "value": "590 g" },
+              { "label": "Cena w menu", "value": "59,00 zł" }
+            ] },
+            { "type": "text", "heading": "Technologia deklarowana", "text": "Kulka ciasta pieczona w piecu do pizzy. Po upieczeniu ciasto przecinane na pół w poziomie, na dolną część nakładany sos czosnkowy, składniki i świeża zielenina. Całość zamykana, z zewnątrz polewana oliwą, krojona na dwie części i podawana ze szpadką." }
+          ]
+        },
+        { "width": 38, "blocks": [ { "type": "image", "src": "foto/nadzienie.jpg", "caption": "Nadzienie po otwarciu połówki" } ] }
+      ]
+    },
+    {
+      "title": "Ocena sensoryczna i jakościowa",
+      "section": "03 · Ocena produktu",
+      "subtitle": "Ocena ważona wg standardu MP Consulting Food",
+      "blocks": [
+        { "type": "table",
+          "columns": [
+            { "label": "Kryterium", "kind": "bold", "width": 19 },
+            { "label": "Waga", "align": "center", "width": 7 },
+            { "label": "Ocena", "align": "center", "width": 6, "kind": "score" },
+            { "label": "Obserwacje audytora", "kind": "small" }
+          ],
+          "rows": [
+            ["Prezentacja i wygląd", "15%", "4", "Efektowny przekrój, szpadka, rukola wychodząca z nadzienia. Nadzienie wysypuje się przy krojeniu, brak „zamknięcia” serem."],
+            ["Wypiek ciasta", "15%", "4", "Równomierne przypieczenie, leopardowanie, chrupiąca skórka. Wierzch prawidłowo natłuszczony oliwą."],
+            ["Tekstura i proporcje", "15%", "3", "Grube, chlebowe ścianki. Ciasto stanowi ok. 55% masy, nadzienie skupione w środku – brzegi „puste”."],
+            ["Białko – jakość i ilość", "15%", "3", "Kurczak poprawnie grillowany, ale porcja 90 g jest niska jak na danie za 59 zł. Boczek miękki zamiast chrupkiego."],
+            ["Balans smaku", "15%", "3", "Dominują tłuszcz i czosnek. Brak kwasowego kontrapunktu (pikiel) – smak męczy się w drugiej połowie porcji."],
+            ["Sos", "10%", "3", "Podany obficie, oblepia rukolę i rozmiękcza spód. Brak porcjowania."],
+            ["Świeżość dodatków", "10%", "5", "Rukola jędrna, dodana po upieczeniu – wzorcowo. Cebula i pomidor świeże."],
+            ["Zgodność z recepturą", "5%", "2", "Ser, pomidor, cebula spoza karty; brak deklarowanego pikla; gramatura niezgodna."],
+            { "style": "accent", "cells": ["OCENA WAŻONA", "100%", "3,5", "69% – produkt dobry, z wyraźnym potencjałem do poziomu flagowego"] }
+          ] }
+      ]
+    },
+    {
+      "title": "Weryfikacja wizualna – zgodność z recepturą",
+      "section": "03 · Ocena produktu",
+      "subtitle": "Analiza dokumentacji fotograficznej",
+      "columns": [
+        { "width": 54, "blocks": [ { "type": "images", "items": [
+          { "src": "foto/nadzienie.jpg", "caption": "Fot. 1 – nadzienie" },
+          { "src": "foto/przekroj.jpg", "caption": "Fot. 2 – przekrój" }
+        ] } ] },
+        {
+          "width": 46,
+          "blocks": [
+            { "type": "bullets", "heading": "Niezgodności", "tone": "bad", "items": [
+              "**Składniki spoza receptury:** pomidor, czerwona cebula, roztopiony ser (prawdopodobnie mozzarella). Pomidor oddaje wodę i rozmiękcza ciasto.",
+              "**Brak pikla:** deklarowany ogórek nie jest identyfikowalny w nadzieniu.",
+              "**Sos ponad normę:** wizualnie ok. 60–70 g zamiast 40 g."
+            ] },
+            { "type": "bullets", "heading": "Obserwacje technologiczne", "tone": "warn", "items": [
+              "Rozkład nadzienia nierówny – centrum przeładowane, brzegi bez wsadu.",
+              "Górna połowa ciasta grubsza niż dolna – kęs „chlebowy”."
+            ] },
+            { "type": "bullets", "heading": "Zgodne ze standardem", "tone": "good", "items": [
+              "Wypiek, kolor i aromat skórki.",
+              "Rukola dodana po wypieku, świeża.",
+              "Oliwa na powierzchni, estetyczne podanie."
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Analiza technologiczna – ciasto i montaż",
+      "section": "03 · Ocena produktu",
+      "subtitle": "Gdzie powstaje różnica między „dobrym” a „wybitnym” panuozzo",
+      "columns": [
+        {
+          "width": 68,
+          "blocks": [
+            { "type": "table",
+              "columns": [ { "label": "Parametr", "kind": "bold", "width": 34 }, { "label": "Stan obecny", "width": 26 }, { "label": "Standard docelowy" } ],
+              "rows": [
+                ["Waga kulki", "300 g", { "text": "260–280 g", "tone": "good" }],
+                ["Proporcja ciasto : nadzienie", "ok. 55 : 45", { "text": "45 : 55", "tone": "good" }],
+                ["Kształt przed wypiekiem", "okrągły placek", { "text": "owal / prostokąt ok. 30 × 15 cm", "tone": "good" }],
+                ["Grubość ścianki po przekrojeniu", "nierówna, gruba", { "text": "równa, ok. 1,5 cm", "tone": "good" }],
+                ["Ser jako „spoiwo”", "przypadkowo", { "text": "30–40 s w piecu na otwartej połówce", "tone": "good" }],
+                ["Porcjowanie sosu", "na oko", { "text": "dozownik, 35 g", "tone": "good" }],
+                ["Wilgotne składniki", "pomidor bezpośrednio", { "text": "tylko odsączone pikle", "tone": "good" }]
+              ] },
+            { "type": "text", "heading": "Komentarz szefa kuchni", "text": "Panuozzo to w tradycji neapolitańskiej ciasto pieczone jak chlebek, a nie zamknięta pizza – liczy się lekkość wnętrza i chrupkość skórki. Zmniejszenie kulki o 20–40 g przy rozciągnięciu w owal daje cieńsze, równe ścianki i lepszy stosunek nadzienia do pieczywa. Kluczowy jest krok „drugiego pieca”: po przekrojeniu położyć ser na dolnej połówce i wrócić na 30–40 s – ser skleja nadzienie, a gość dostaje efekt ciągnącego się sera, który świetnie wygląda na zdjęciach w mediach społecznościowych." }
+          ]
+        },
+        { "width": 32, "blocks": [ { "type": "image", "src": "foto/przekroj.jpg", "caption": "Grube ścianki i nierówny rozkład" } ] }
+      ]
+    },
+    {
+      "title": "Food cost – receptura deklarowana",
+      "section": "04 · Finanse",
+      "subtitle": "Ceny hurtowe PL (średnie rynkowe), do weryfikacji fakturami klienta",
+      "columns": [
+        {
+          "width": 66,
+          "blocks": [
+            { "type": "table",
+              "columns": [ { "label": "Składnik" }, { "label": "Ilość", "align": "right", "width": 13 }, { "label": "Cena hurt", "align": "right", "width": 25 }, { "label": "Koszt", "align": "right", "width": 15 } ],
+              "rows": [
+                ["Ciasto (mąka 00, drożdże, sól, oliwa)", "300 g", "ok. 4,5 zł/kg mąki", "1,30 zł"],
+                ["Kurczak filet (≈120 g surowego)", "90 g", "ok. 24 zł/kg", "2,90 zł"],
+                ["Boczek wędzony", "40 g", "ok. 33 zł/kg", "1,35 zł"],
+                ["Sos czosnkowy", "40 g", "ok. 14 zł/kg", "0,55 zł"],
+                ["Ogórek konserwowy / pikiel", "50 g", "ok. 11 zł/kg", "0,55 zł"],
+                ["Rukola", "15 g", "ok. 55 zł/kg", "0,85 zł"],
+                ["Oliwa", "10 ml", "ok. 45 zł/l", "0,45 zł"],
+                { "style": "sum", "cells": ["Suma surowców", "", "", "7,95 zł"] },
+                { "style": "strong", "cells": ["Straty / bufor 5%", "", "", "0,40 zł"] },
+                { "style": "accent", "cells": ["FOOD COST", "", "", "8,40 zł"] }
+              ] },
+            { "type": "spacer" },
+            { "type": "text", "text": "Mnożnik ceny ×6,5 przy standardzie ×3–4. Rentowność bardzo wysoka – jest przestrzeń na inwestycję w jakość bez podnoszenia ceny." },
+            { "type": "spacer" }
+          ]
+        },
+        {
+          "width": 34,
+          "blocks": [
+            { "type": "kpis", "columns": 1, "items": [
+              { "label": "Cena brutto", "value": "59,00 zł" },
+              { "label": "Cena netto (VAT 8%)", "value": "54,63 zł" },
+              { "label": "Food cost %", "value": "15,4 %", "tone": "good" },
+              { "label": "Marża na surowcu", "value": "46,23 zł" }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Food cost rzeczywisty i bilans gramatury",
+      "section": "04 · Finanse",
+      "subtitle": "Korekta o składniki faktycznie widoczne na talerzu",
+      "columns": [
+        {
+          "width": 55,
+          "blocks": [
+            { "type": "table",
+              "columns": [ { "label": "Zmiana względem receptury" }, { "label": "Ilość", "align": "right", "width": 16 }, { "label": "Koszt", "align": "right", "width": 20 } ],
+              "rows": [
+                ["Receptura deklarowana (surowce)", "", "7,95 zł"],
+                ["– Ogórek konserwowy (niewidoczny)", "50 g", { "text": "–0,55 zł", "tone": "good" }],
+                ["+ Ser mozzarella", "40 g", { "text": "+1,10 zł", "tone": "bad" }],
+                ["+ Pomidor", "40 g", { "text": "+0,35 zł", "tone": "bad" }],
+                ["+ Czerwona cebula", "20 g", { "text": "+0,10 zł", "tone": "bad" }],
+                { "style": "sum", "cells": ["Suma surowców", "", "8,95 zł"] },
+                { "style": "accent", "cells": ["FOOD COST (z buforem 5%)", "", "9,40 zł"] }
+              ] },
+            { "type": "text", "text": "Food cost wariantu rzeczywistego: **17,2% ceny netto**. Nadwyżka sosu (ok. +25 g) to kolejne ok. 0,35 zł na porcji – drobna kwota, ale przy braku porcjowania koszt i smak są niepowtarzalne." }
+          ]
+        },
+        {
+          "width": 45,
+          "blocks": [
+            { "type": "table", "heading": "Bilans gramatury",
+              "columns": [ { "label": "Pozycja" }, { "label": "Waga", "align": "right", "width": 32 } ],
+              "rows": [
+                ["Suma składników (receptura)", "ok. 545 g"],
+                ["Ubytek wody z ciasta (10–15%)", "–30–45 g"],
+                { "style": "strong", "cells": ["Waga realna po wypieku", "ok. 500–515 g"] },
+                { "style": "strong", "cells": ["Waga deklarowana w menu", { "text": "590 g", "tone": "bad" }] }
+              ] },
+            { "type": "text", "text": "Rozbieżność ok. **75–90 g (13–15%)**. Deklaracja prawdopodobnie odnosi się do surowego ciasta z nadzieniem lub do starszej wersji receptury. Rekomendujemy zważenie 3 losowych porcji i korektę menu w ciągu 7 dni." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rekomendacje szefa kuchni – smaczki",
+      "section": "05 · Rekomendacje",
+      "subtitle": "Sześć zmian, które podnoszą produkt do poziomu flagowego",
+      "blocks": [
+        { "type": "cards", "columns": 3, "items": [
+          { "title": "Domowe pikle – brakujący kwas", "text": "Ogórek i czerwona cebula w zalewie 3:2:1 (woda : ocet : cukier) z koprem, gorczycą i ziarnem kolendry, 24 h w chłodni. Kwas przecina tłuszcz boczku i sosu, a chrupkość daje kontrast tekstur. Koszt niższy niż gotowe pikle, produkcja raz w tygodniu." },
+          { "title": "Aioli z pieczonego czosnku", "text": "Główki czosnku confit w oliwie (90°C, ok. 1 h), zmiksowane z majonezem, sokiem z cytryny i szczyptą soli. Smak łagodny, słodkawy, bez ostrej „surowej” nuty. Oliwa z confitu idzie na wierzch ciasta – zero waste i spójny aromat." },
+          { "title": "Kurczak z uda w maślance", "text": "Udo bez kości marynowane 12 h w maślance z wędzoną papryką, czosnkiem i solą, grillowane na mocnym ogniu i krojone w paski. Soczystsze i bardziej wyraziste niż filet, odporne na przetrzymanie. Porcja 120 g zamiast 90 g." },
+          { "title": "Boczek naprawdę chrupiący", "text": "Plastry pieczone na blasze między dwoma arkuszami papieru (180°C, 12–15 min) – płaskie, równe i chrupiące. Wersja premium: guanciale. Chrupkość to „smaczek”, który gość zapamiętuje i opisuje w recenzji." },
+          { "title": "Scamorza – drugi piec", "text": "Wędzona scamorza (40 g) na dolnej połówce i 30–40 s w piecu przed montażem. Ser skleja nadzienie, nie wysypuje się ono przy krojeniu, a wędzona nuta łączy się z boczkiem. Efekt ciągnącego sera to darmowy marketing w social media." },
+          { "title": "Wykończenie à la minute", "text": "Rukola skropiona cytrynowym winegretem, na wierzch płatki parmezanu i starta skórka z cytryny. Ciasto po wyjęciu posmarowane pędzlem oliwą czosnkowo-rozmarynową i oprószone płatkami soli. Detale, które odróżniają restaurację od budki." }
+        ] }
+      ]
+    },
+    {
+      "title": "Panuozzo 2.0 – receptura rekomendowana",
+      "section": "05 · Rekomendacje",
+      "subtitle": "Karta kalkulacyjna wersji docelowej",
+      "columns": [
+        {
+          "width": 55,
+          "blocks": [
+            { "type": "table",
+              "columns": [ { "label": "Składnik" }, { "label": "Ilość", "align": "right", "width": 14 }, { "label": "Koszt", "align": "right", "width": 18 } ],
+              "rows": [
+                ["Ciasto (kulka, owal)", "270 g", "1,15 zł"],
+                ["Udo z kurczaka marynowane (≈170 g surowego)", "120 g", "3,75 zł"],
+                ["Boczek chrupiący", "40 g", "1,35 zł"],
+                ["Scamorza affumicata", "40 g", "1,60 zł"],
+                ["Aioli z pieczonego czosnku", "35 g", "0,70 zł"],
+                ["Pikle domowe (ogórek + cebula)", "40 g", "0,45 zł"],
+                ["Rukola + winegret cytrynowy", "15 g", "0,85 zł"],
+                ["Oliwa czosnkowo-rozmarynowa", "8 ml", "0,40 zł"],
+                ["Parmezan, skórka cytryny, płatki soli", "8 g", "0,80 zł"],
+                { "style": "sum", "cells": ["Suma surowców", "", "11,05 zł"] },
+                { "style": "accent", "cells": ["FOOD COST (z buforem 5%)", "", "11,60 zł"] }
+              ] }
+          ]
+        },
+        {
+          "width": 45,
+          "blocks": [
+            { "type": "kpis", "columns": 2, "items": [
+              { "label": "Food cost %", "value": "21,2 %", "note": "przy cenie 59 zł", "tone": "good" },
+              { "label": "Marża na surowcu", "value": "43,03 zł", "note": "–3,20 zł vs obecnie" },
+              { "label": "Waga po wypieku", "value": "ok. 540 g", "note": "do wpisania w menu" },
+              { "label": "Białko w porcji", "value": "160 g", "note": "mięso: +30 g" }
+            ] },
+            { "type": "text", "heading": "Rekomendacja cenowa", "text": "Utrzymać cenę **59 zł**. Spadek marży o ok. 3 zł na porcji jest inwestycją w wartość postrzeganą – rekompensują go dodatki płatne (slajd 13) i wyższa częstotliwość zamówień pozycji flagowej. Alternatywnie **62 zł** po 4 tygodniach, jeśli opinie gości potwierdzą zmianę (food cost 20,2%)." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Standardy operacyjne i bezpieczeństwo żywności",
+      "section": "06 · Wdrożenie",
+      "subtitle": "Powtarzalność to jakość, którą gość dostaje za każdym razem",
+      "columns": [
+        {
+          "width": 50,
+          "blocks": [
+            { "type": "bullets", "heading": "Karta technologiczna i stanowisko", "items": [
+              "Karta technologiczna z gramaturami i zdjęciem wzorcowym przekroju, zalaminowana przy piecu.",
+              "Waga kuchenna na stanowisku montażu – ważenie mięsa i boczku do każdej porcji przez pierwsze 2 tygodnie.",
+              "Dozownik do sosu (35 g) i łyżka porcjująca do pikli.",
+              "Mise en place w pojemnikach GN z etykietą: produkt, data, godzina, osoba.",
+              "Kolejność montażu: ser → piec → aioli → kurczak → boczek → pikle → rukola → zamknięcie."
+            ] },
+            { "type": "bullets", "heading": "Wydanie", "items": [
+              "Krojenie skośne na dwie części, przekrojem do gościa, szpadka w górnej połówce.",
+              "Czas od wyjęcia z pieca do wydania: maks. 90 s."
+            ] }
+          ]
+        },
+        {
+          "width": 50,
+          "blocks": [
+            { "type": "table", "heading": "HACCP – punkty krytyczne",
+              "columns": [ { "label": "Produkt", "kind": "bold", "width": 34 }, { "label": "Wymaganie" } ],
+              "rows": [
+                ["Aioli / sos na bazie majonezu", "Przechowywanie w chłodni ≤ 4°C, przydatność wg receptury (zwykle do 48–72 h), FIFO"],
+                ["Kurczak po obróbce", "Szybkie schłodzenie, przechowywanie ≤ 4°C, porcjowanie na zimno, odgrzanie w piecu"],
+                ["Czosnek confit w oliwie", "Tylko w chłodni, krótki termin – ryzyko botulizmu w temp. pokojowej"],
+                ["Rukola", "Mycie, osuszanie, pojemnik z ręcznikiem papierowym w chłodni"],
+                ["Pikle domowe", "Słoiki/pojemniki z datą produkcji, chłodnia"]
+              ] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sprzedaż i komunikacja w menu",
+      "section": "06 · Wdrożenie",
+      "subtitle": "Jak zamienić dobry produkt w bestseller",
+      "columns": [
+        {
+          "width": 54,
+          "blocks": [
+            { "type": "box", "heading": "Proponowany opis w menu", "text": "Panuozzo z pieca – chrupiący neapolitański chlebek prosto z pieca do pizzy, z kurczakiem marynowanym w maślance, chrupiącym boczkiem, wędzoną scamorzą, aioli z pieczonego czosnku i domowymi piklami. Na koniec świeża rukola, parmezan i skórka z cytryny.", "note": "ok. 540 g · 59 zł" },
+            { "type": "bullets", "heading": "Dlaczego to działa", "items": [
+              "Słowa-klucze budujące wartość: „z pieca”, „domowe”, „marynowany”, „chrupiący”.",
+              "Uczciwa gramatura buduje zaufanie i chroni przed reklamacjami.",
+              "Zdjęcie przekroju z ciągnącym się serem w menu i social media."
+            ] }
+          ]
+        },
+        {
+          "width": 46,
+          "blocks": [
+            { "type": "table", "heading": "Dodatki płatne (upsell)",
+              "columns": [ { "label": "Dodatek" }, { "label": "Cena", "align": "right", "width": 16 }, { "label": "Koszt", "align": "right", "width": 18 }, { "label": "Marża netto", "align": "right", "width": 26 } ],
+              "rows": [
+                ["Hot honey (miód z chili)", "+4 zł", "0,50 zł", "3,20 zł"],
+                ["Burrata ½ szt.", "+12 zł", "3,50 zł", "7,61 zł"],
+                ["Podwójne mięso", "+9 zł", "3,75 zł", "4,58 zł"]
+              ] },
+            { "type": "text", "text": "Przy 100 sprzedanych sztukach i konwersji 25% (hot honey) oraz 15% (burrata) to ok. **+190 zł dodatkowej marży** – więcej niż pokrywa koszt ulepszenia receptury." },
+            { "type": "text", "heading": "Pairing i rekomendacja obsługi", "text": "Obsługa poleca do panuozzo lemoniadę cytrynowo-rozmarynową lub jasny lager – kwasowość i goryczka równoważą tłustość dania. Jedno zdanie przy zamówieniu podnosi średni rachunek." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Plan działań i harmonogram wdrożenia",
+      "section": "06 · Wdrożenie",
+      "subtitle": "Priorytety uszeregowane wg wpływu i pilności",
+      "blocks": [
+        { "type": "table",
+          "columns": [
+            { "label": "Priorytet", "kind": "priority", "width": 9 },
+            { "label": "Działanie", "width": 39 },
+            { "label": "Odpowiedzialny", "width": 16 },
+            { "label": "Termin", "width": 8 },
+            { "label": "Efekt" }
+          ],
+          "rows": [
+            ["WYSOKI", "Korekta gramatury w menu po zważeniu 3 porcji", "Manager", "7 dni", "Zgodność z prawem, brak reklamacji"],
+            ["WYSOKI", "Karta technologiczna ze zdjęciem wzorcowym", "Szef kuchni", "7 dni", "Powtarzalność"],
+            ["WYSOKI", "Dozownik do sosu, waga na stanowisku", "Szef kuchni", "7 dni", "Kontrola kosztu i smaku"],
+            ["ŚREDNI", "Produkcja domowych pikli i aioli confit", "Kuchnia", "14 dni", "Balans smaku"],
+            ["ŚREDNI", "Test Panuozzo 2.0 (2 tyg., feedback gości)", "Szef kuchni", "30 dni", "Pozycja flagowa"],
+            ["ŚREDNI", "Dodatki płatne + szkolenie obsługi z upsellu", "Manager sali", "30 dni", "Wyższy średni rachunek"],
+            ["NISKI", "Nowy opis i zdjęcie w menu i social media", "Marketing", "30 dni", "Sprzedaż, rozpoznawalność"],
+            ["NISKI", "Audyt kontrolny wdrożenia", "MP Consulting Food", "60 dni", "Weryfikacja efektów"]
+          ] }
+      ]
+    },
+    {
+      "type": "closing",
+      "title": "Podsumowanie",
+      "text": "Panuozzo ma wszystko, czego potrzebuje pozycja flagowa: świetny wypiek, efektowne podanie i ogromny zapas marży. Brakuje standardu, kwasowości i uczciwej proporcji ciasta do nadzienia. Wdrożenie rekomendacji kosztuje ok. 3 zł na porcji, a zwraca się w wartości postrzeganej, opiniach gości i sprzedaży dodatków.",
+      "nextTitle": "Następny krok",
+      "next": "Warsztat z zespołem kuchni – wdrożenie Panuozzo 2.0 i karty technologicznej – oraz audyt kontrolny po 60 dniach.",
+      "disclaimer": "Kalkulacje oparte na średnich cenach hurtowych rynku polskiego i deklaracjach lokalu; dla pełnej dokładności należy je zweryfikować fakturami dostawców. Ocena sensoryczna odzwierciedla stan produktu w dniu wizyty.",
+      "image": "foto/nadzienie.jpg"
+    }
+  ]
+}
